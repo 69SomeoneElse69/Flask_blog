@@ -1,7 +1,6 @@
 import os
 from secrets import token_hex
-# from PIL import Image
-from pil import Image  # fork от PIL работает с Python 3.9
+from pil import Image
 from flask import url_for, current_app
 from flask_mail import Message
 from flask_blog import mail
